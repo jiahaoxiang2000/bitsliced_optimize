@@ -4,3 +4,6 @@
 [submodule "ARM-M4"]
 	path = ARM-M4
 	url = git@github.com:jiahaoxiang2000/PanDuoLa.git
+[submodule "RISC-V"]
+	path = RISC-V
+	url = git@github.com:jiahaoxiang2000/longan_nano.git
