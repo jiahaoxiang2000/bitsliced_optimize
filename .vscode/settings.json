@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "Bitsliced"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
