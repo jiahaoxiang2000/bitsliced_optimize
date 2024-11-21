@@ -12,9 +12,9 @@ The project consists of three main components:
 
 ## Getting Started
 
-- See [readme.md](non-linear-layer/readme.md) for S-box optimization
-- See [readme.md](linear-layer/readme.md) for permutation optimization
-- See [README.md](LCB/README.md) for performance evaluation framework
+- See `non-linear-layer/readme.md` for S-box optimization
+- See `linear-layer/readme.md` for permutation optimization
+- See `LCB/README.md` for performance evaluation framework
 
 ## Tested Platforms
 
