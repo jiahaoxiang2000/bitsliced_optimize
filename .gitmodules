@@ -1,3 +1,6 @@
 [submodule "sbox-bgc"]
 	path = non-linear-layer
 	url = git@github.com:jiahaoxiang2000/sbox-bgc.git
+[submodule "LCB"]
+	path = LCB
+	url = git@github.com:jiahaoxiang2000/LCB.git
