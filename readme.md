@@ -1,9 +1,24 @@
-# Optimal Low-Latency Implementation of Bitsliced Cipher for RISC Processors
+# Optimal Low-Latency Implementation of Bitsliced SPN-Cipher on 32-bit Processors
 
-This repository contains the source code for the paper "Optimal Low-Latency Implementation of Bitsliced Cipher for RISC Processors" 
+This repository contains the implementation and evaluation framework for optimizing bitsliced SPN-cipher implementations on 32-bit processors like ARM Cortex-M4. The work focuses on both theoretical optimization techniques and practical performance evaluation.
 
 ## Contents
 
-- `sbox-bgc`: This is a novel encoding method optimized for the Bit-slice Gate Complexity (BGC) model. It is primarily used for optimizing the S-box.
-- `ARM-M4`: This refers to the implementation of the encryption algorithm specifically designed for the ARM Cortex-M4 processor.
-- `RISC-V`: This refers to the implementation of the encryption algorithm specifically designed for the RISC-V processor.
+The project consists of three main components:
+
+- `non-linear-layer`: Implementation of a novel S-box optimization technique using the Bit-slice Gate Complexity (BGC) model that improves the efficiency of the non-linear substitution layer.
+- `linear-layer`: Implementation of the Optimization of Permutation Operations (OPO) algorithm for optimizing the linear permutation layer. The key implementation is in [optimize_permutation.ipynb](linear-layer/optimize_permutation.ipynb).
+- `LCB`: A comprehensive benchmarking framework for evaluating lightweight block cipher implementations on microcontrollers. Contains the experimental data and performance measurements discussed in the paper.
+
+## Getting Started
+
+- See [readme.md](non-linear-layer/readme.md) for S-box optimization
+- See [readme.md](linear-layer/readme.md) for permutation optimization
+- See [README.md](LCB/README.md) for performance evaluation framework
+
+## Tested Platforms
+
+The optimizations target 32-bit microcontroller platforms:
+
+- ARM Cortex-M4 based boards (STM32L475)
+- ESP32-S3 based boards
