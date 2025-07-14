@@ -4,3 +4,6 @@
 [submodule "LCB"]
 	path = LCB
 	url = git@github.com:jiahaoxiang2000/LCB.git
+[submodule ".claude"]
+	path = .claude
+	url = git@github.com:jiahaoxiang2000/claude-conf.git
