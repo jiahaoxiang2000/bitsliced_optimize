@@ -1,4 +1,4 @@
-# Optimal Low-Latency Implementation of Bitsliced SPN-Cipher on 32-bit Processors
+# Optimal Low-Latency Implementation of Bitsliced SPN-Cipher on IoT Processors
 
 This repository contains the implementation and evaluation framework for optimizing bitsliced SPN-cipher implementations on 32-bit processors like ARM Cortex-M4. The work focuses on both theoretical optimization techniques and practical performance evaluation.
 
