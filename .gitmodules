@@ -1,9 +1,9 @@
 [submodule "sbox-bgc"]
 	path = non-linear-layer
-	url = git@github.com:jiahaoxiang2000/sbox-bgc.git
+	url = https://github.com/jiahaoxiang2000/sbox-bgc.git
 [submodule "LCB"]
 	path = LCB
-	url = git@github.com:jiahaoxiang2000/LCB.git
+	url = https://github.com/jiahaoxiang2000/LCB.git
 [submodule ".claude"]
 	path = .claude
-	url = git@github.com:jiahaoxiang2000/claude-conf.git
+	url = https://github.com/jiahaoxiang2000/claude-conf.git
